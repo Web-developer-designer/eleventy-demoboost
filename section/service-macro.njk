@@ -1,0 +1,12 @@
+{% macro service(iconcolor, path, alt, ttle, heading, para) %}
+
+<div class="grid-out">
+              <aside class="grid">
+                <figure class="crcl {{iconcolor}}"> <img src="{{path}}"  alt="{{alt}}" title="{{ttle}}"/> </figure>
+                <div class="grid-text">
+                  <h3>{{ heading }}</h3>
+                  <p>{{ para }}</p>
+                </div>
+              </aside>
+</div>
+{% endmacro %}

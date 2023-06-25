@@ -1,0 +1,16 @@
+{
+  "name": "eleventy-demoboost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ./_site/styles.css --watch",
+    "prod": "npx ./_site/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

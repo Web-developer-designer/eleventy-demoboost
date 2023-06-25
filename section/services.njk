@@ -1,0 +1,21 @@
+ <div class="wrapper">
+        <div class="row">
+          <div class="headig-sec">
+            <h5>results</h5>
+            <h2>What can you expect?</h2>
+          </div>
+          <div class="grid-container">
+            {% import 'section/service-macro.njk' as macro %}
+            {{ macro.service('first', '/assets/Icon.svg', 'demos', 'Building demos with your team', 'Building demos with your team', 'Throughout our 
+                  contract, not just during onboarding.') }}
+
+           {{ macro.service('grid-blue', '/assets/file-icon.svg', 'practice', 'Demo ideas & best practices', 'Demo ideas & best practices', 'What’s the best format & narrative of the demo.') }}
+
+            {{ macro.service('grid-skyblue', '/assets/phone-call.svg', 'leverage', 'How to leverage your demos', 'How to leverage your demos', 'Where you could/should apply demos with Demoboost?') }}
+
+            {{ macro.service('grid-green', '/assets/cursor-click.svg', 'improving', 'Reviewing & improving demos', 'Reviewing & improving demos', 'while teaching you the best demo practises adjusted to your product.') }}
+            
+            {{ macro.service('grid-prpl', '/assets/Solid.svg', 'partner', 'Being your partner in crime', 'Being your partner in crime', 'any project you work on, we can work together and save your time!') }}
+          </div>
+        </div>
+      </div>
